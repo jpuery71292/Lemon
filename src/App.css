@@ -3,32 +3,6 @@ body{
   background-size: 100%;
 }
 
-.Logo{
-  width: 450px;
-  position: absolute;
-  margin-left: 0%;
-}
-
-.Menu{ 
-  background-color: black;
-  margin-top: 3%;
-  margin-left: 4%;
-  margin-right: 4%;
-}
-
-.Menu-Button{
-  margin-left: 50%;
-}
-
-.link{
-  text-decoration: none;
-  color: white;
-  margin: 4%;
-  background: none;
-  border:none;
-  font-size: xx-large;
-  font-family: sans-serif;
-}
 
 .Cuerpo{
   text-align: center;

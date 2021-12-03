@@ -1,0 +1,31 @@
+.Logo{
+    width: 250px;
+    margin-left: 0%;
+  }
+
+.Menu{
+  display: inline-flex;
+  width: 100%;
+}
+
+.Menu-izq{
+  position: relative;
+  width: 50%;
+}
+
+.Menu-der{
+  position: relative;
+  display: inline-flex;
+  padding-top: 3mm;
+  width: 50%;
+}
+
+.nav-link{
+  color: white;
+  font-size: x-large;
+}
+
+.navbar{
+  color: black;
+  padding-top: 25mm;
+}
