@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+body{
+  background-image: url(/src/components/imagenes/fondo.png);
+  background-size: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Logo{
+  width: 450px;
+  position: absolute;
+  margin-left: 0%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Menu{ 
+  background-color: black;
+  margin-top: 3%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Menu-Button{
+  margin-left: 50%;
+}
+
+.link{
+  text-decoration: none;
   color: white;
+  margin: 4%;
+  background: none;
+  border:none;
+  font-size: xx-large;
+  font-family: sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Cuerpo{
+  text-align: center;
+  background-color: black;
 }
