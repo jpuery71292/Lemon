@@ -4,6 +4,7 @@
   }
 
 .Menu{
+  margin-top: 25mm;
   display: inline-flex;
   width: 100%;
 }
@@ -20,12 +21,11 @@
   width: 50%;
 }
 
-.nav-link{
+a.nav-link{
   color: white;
   font-size: x-large;
 }
 
 .navbar{
   color: black;
-  padding-top: 25mm;
 }

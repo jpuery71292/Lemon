@@ -1,0 +1,14 @@
+.Cuerpo{
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+.Link{
+  text-decoration:none;
+  color: white;
+}
+
+.icon{
+  width: 100px;
+}

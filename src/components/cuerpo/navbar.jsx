@@ -1,12 +1,11 @@
-import { 
-  Navbar, 
+import {
   Container, 
   Nav, 
-  NavDropdown } 
+} 
 from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import './navbar.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import logo from '../imagenes/logo.png'
 
 function Menu() {
