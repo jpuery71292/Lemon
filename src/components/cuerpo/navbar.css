@@ -1,5 +1,5 @@
 .Logo{
-    width: 250px;
+    width: 300px;
     margin-left: 0%;
   }
 
@@ -10,13 +10,12 @@
 }
 
 .Menu-izq{
-  position: relative;
   width: 50%;
 }
 
 .Menu-der{
-  position: relative;
-  display: inline-flex;
+  display:flex;
+  Justify-content: flex-end;
   padding-top: 3mm;
   width: 50%;
 }

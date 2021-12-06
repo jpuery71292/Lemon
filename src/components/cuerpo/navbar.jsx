@@ -18,9 +18,8 @@ function Menu() {
           </div>
           <div className="Menu-der">
             <Nav.Link href="/nosotros">Nosotros</Nav.Link>
-            <Nav.Link href="/mezcla">Mezcla</Nav.Link>
+            <Nav.Link href="/master&contacto">Mezcla</Nav.Link>
             <Nav.Link href="/redes">Redes</Nav.Link>
-            <Nav.Link href="/contacto">Contacto</Nav.Link>
           </div>
         </div>
       </Container>

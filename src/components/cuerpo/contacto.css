@@ -1,7 +1,13 @@
 .Contactos{
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 90%;
     text-align: left;
+    margin-left: 5%;
+}
+
+.Mezcla{
+    margin-left: 5%;
+    width: 90%;
+    text-align: justify;
 }
 
 .Formulario{
@@ -10,4 +16,16 @@
 
 label{
     color: white;
+}
+
+.contenedor{
+    display: inline-flex;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+
+.divisor{
+    width: 50%;
 }

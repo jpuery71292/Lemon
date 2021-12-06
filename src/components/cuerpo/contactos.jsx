@@ -19,11 +19,12 @@ const Contactos = () => {
   };
 
   return (
-    <div>
+    <div >
     <form className="Contactos" ref={form} onSubmit={sendEmail}>
       <Form.Label>Nombre</Form.Label>
       <InputGroup className="mb-3">
         <FormControl
+            name="from_name"
             placeholder="nombre"
             aria-label="nombre"
             aria-describedby="basic-addon2"
@@ -33,6 +34,7 @@ const Contactos = () => {
       <Form.Label>Email</Form.Label>
       <InputGroup className="mb-3">
         <FormControl
+            name="to_email"
             placeholder="email@email.com"
             aria-label="email@email.com"
             aria-describedby="basic-addon2"
@@ -44,6 +46,7 @@ const Contactos = () => {
       <InputGroup>
         <InputGroup.Text>MENSAJE</InputGroup.Text>
         <FormControl 
+            name="message"
             as="textarea" 
             aria-label="With textarea" 
             placeholder="Escriba su mensaje"

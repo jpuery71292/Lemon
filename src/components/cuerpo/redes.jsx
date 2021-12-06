@@ -5,25 +5,25 @@ import './cuerpos.css'
 
 function Redes() {
     return(
-        <div className="Cuerpo">
-            <div>
+        <div className="icon">
+            <div className="tarjeta">
                 <a className="Link" target="_blank" href="https://www.facebook.com/lemoor.pra">
-                    <FaFacebook className="icon"/>  https://www.facebook.com/lemoor.pra
+                    <FaFacebook size="8em"/>
                 </a>
             </div>
-            <div>
+            <div className="tarjeta">
                 <a className="Link" href="https://www.instagram.com/lemoor_pra/" target="_blank">
-                    <FaInstagram className="icon"/>  https://www.instagram.com/lemoor_pra/ 
+                    <FaInstagram size="8em"/> 
                 </a>
             </div>
-            <div>
+            <div className="tarjeta">
                 <a className="Link" href="https://www.youtube.com/channel/UCFUj4H2k9E1jcwjwyXdcawg" target="_blank">
-                    <FaYoutube className="icon"/>  https://www.youtube.com/channel/UCFUj4H2k9E1jcwjwyXdcawg 
+                    <FaYoutube size="8em"/>
                 </a>
             </div>
-            <div>
+            <div className="tarjeta">
                 <a className="Link" href="https://open.spotify.com/artist/4lBFts0fM8PzDLGZzHJL1q?si=cfoSCEL1SVeOLKrAEClRqw"  target="_blank">
-                    <FaSpotify className="icon"/>  https://open.spotify.com/artist/4lBFts0fM8PzDLGZzHJL1q?si=cfoSCEL1SVeOLKrAEClRqw 
+                    <FaSpotify size="8em"/>
                 </a>
             </div>
         </div>

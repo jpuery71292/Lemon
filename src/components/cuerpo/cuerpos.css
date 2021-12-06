@@ -1,7 +1,12 @@
 .Cuerpo{
     text-align: center;
     background-color: black;
+    opacity: 0.8;
     color: white;
+    font-size: x-large;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
 .Link{
@@ -10,5 +15,27 @@
 }
 
 .icon{
-  width: 100px;
+  display: inline-flex;
+  width: 80%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.tarjeta{
+  text-align: center;
+  padding: 2%;
+}
+
+.container-home{
+  background-color: #583129;
+  opacity: 0.8;
+  text-align: center;
+  width: 35%;
+  margin-left: 32.5%;
+}
+
+.image{
+  width: 500px;
 }
