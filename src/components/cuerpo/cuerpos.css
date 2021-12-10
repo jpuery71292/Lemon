@@ -1,41 +1,115 @@
 .Cuerpo{
-    text-align: center;
-    background-color: black;
-    opacity: 0.9;
-    color: white;
-    font-size: x-large;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+  text-align: center;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  font-size: x-large;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 .Link{
   text-decoration:none;
   color: white;
 }
 
-.icon{
-  display: inline-flex;
-  width: 80%;
-  margin-left: 25%;
-  margin-right: 25%;
-  background-color: black;
-  opacity: 0.9;
+@media screen and (min-width: 768px) {
+  .icon{
+    display: inline-flex;
+    Justify-content: center;
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: black;
+    opacity: 0.9;
+  }
+
+  .tarjeta{
+    text-align: center;
+    padding: 2%;
+  } 
+
+  svg{
+    width: 8em;
+    height: 8em;
+  }
+  
+  .container-home{
+    background-color: #583129;
+    opacity: 0.9;
+    text-align: center;
+    width: 36%;
+    margin-left: 32%;
+  }
+
+  .image{
+    width: 100%;
+  }
 }
 
-.tarjeta{
-  text-align: center;
-  padding: 2%;
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .icon{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: inline-flex;
+    Justify-content: center;
+    background-color: black;
+    opacity: 0.9;
+  }
+  
+  svg{
+    width: 6em;
+    height: 6em;
+  }
+
+  .container-home{
+    background-color: #583129;
+    opacity: 0.9;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .image{
+    width: 80%;
+  }
+
+  .tarjeta{
+    text-align: center;
+    padding: 2%;
+  } 
 }
 
-.container-home{
-  background-color: #583129;
-  opacity: 0.9;
-  text-align: center;
-  width: 36%;
-  margin-left: 32%;
-}
+@media screen and (min-width: 0px) and (max-width: 425px) {
+  .icon{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: block;
+    text-align: center;
+    background-color: black;
+    opacity: 0.9;
+  }
+  
+  svg{
+    width: 4em;
+    height: 4em;
+  }
 
-.image{
-  width: 100%;
+  .container-home{
+    background-color: #583129;
+    opacity: 0.9;
+    text-align: center;
+    width: 100%;
+  }
+
+  .image{
+    width: 80%;
+  }
+
+  .tarjeta{
+    text-align: center;
+    padding: 2%;
+  } 
 }

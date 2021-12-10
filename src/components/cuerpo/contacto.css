@@ -4,12 +4,6 @@
     margin-left: 5%;
 }
 
-.Mezcla{
-    margin-left: 5%;
-    width: 90%;
-    text-align: justify;
-}
-
 .Formulario{
     text-align: center;
 }
@@ -18,14 +12,64 @@ label{
     color: white;
 }
 
-.contenedor{
-    display: inline-flex;
-    width: 100%;
-    background-color: black;
-    opacity: 0.8;
-    color: white;
-}
 
-.divisor{
+
+
+
+
+@media screen and (min-width: 768px) {
+  .contenedor{
+      display: inline-flex;
+      width: 100%;
+      background-color: black;
+      opacity: 0.8;
+      color: white;
+  }
+  
+  .divisor{
     width: 50%;
+  }
+
+  .Mezcla{
+    margin-left: 5%;
+    width: 90%;
+    text-align: justify;
+  }
+}
+  
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .contenedor{
+      display: block;
+      color: white;
+      background-color: black;
+      opacity: 0.8;
+  }
+
+  .divisor{
+    width: 90%;
+    margin-left: 5%;
+    
+  }
+
+  .Mezcla{
+    text-align: justify;
+  }
+}
+  
+@media screen and (min-width: 0px) and (max-width: 425px) {
+  .contenedor{
+      display: block;
+      color: white;
+      background-color: black;
+      opacity: 0.8;
+  }
+ 
+  .divisor{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .Mezcla{
+    text-align: center;
+  }
 }
